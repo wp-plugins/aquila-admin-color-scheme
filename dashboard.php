@@ -41,10 +41,8 @@ function aquila_admin_css() {
    echo "<style type='text/css' media='screen'>
 #wpadminbar #wp-admin-bar-wp-logo>.ab-item, 
 #wpadminbar #wp-admin-bar-wp-logo .ab-sub-wrapper,
-body.role-editor #wp-admin-bar-my-sites,
 body.role-editor #adminmenu li.toplevel_page_wpcf7,
 body.role-editor #adminmenu li#menu-tools,
-#wp-admin-bar-my-sites-list .ab-sub-wrapper,
 #footer-upgrade,
 label[for='wp_welcome_panel-hide']
   {
