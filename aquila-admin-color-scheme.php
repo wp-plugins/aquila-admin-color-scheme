@@ -5,7 +5,7 @@
  * Description: The Aquila Color Scheme for WordPress Admin area.
  * Author: Guy Primavera
  * Author URI: http://www.guyprimavera.com/
- * Version: 1.0
+ * Version: 1.1
  * Text Domain: aquila-admin-color-scheme
  * License: GPL2
  *
@@ -13,6 +13,7 @@
  */
 
 include ('dashboard.php');
+include ('admin-bar.php');
 
 class Aquila_Admin_Color_Scheme {
 

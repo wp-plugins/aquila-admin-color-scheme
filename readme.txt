@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: plugins, wordpress, admin, wp-admin, color scheme, colour scheme, color, colors, colour, colours, login, aquila, mito
 Requires at least: 4.0.1
 Tested up to: 4.2.2
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -44,6 +44,10 @@ No. All settings are applied automatically once the plugin is activated and ther
 
 == Changelog ==
 
+= 1.1 =
+* Added Multisite support.
+* Changs to Admin Bar.
+
 = 1.0 =
 * Stable release.
 
@@ -51,6 +55,9 @@ No. All settings are applied automatically once the plugin is activated and ther
 * Beta release.
 
 == Upgrade Notice ==
+
+= 1.1 =
+Added Multisite support and Admin Bar links.
 
 = 1.0 =
 This is the first stable release.
