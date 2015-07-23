@@ -3,7 +3,7 @@ function remove_admin_bar_links() {
     global $wp_admin_bar;
     $wp_admin_bar->remove_menu('updates');          // Remove the updates link
     $wp_admin_bar->remove_menu('comments');         // Remove the comments link
-    $wp_admin_bar->remove_menu('new-content');      // Remove the content link
+    $wp_admin_bar->remove_menu('new-content');      // Remove the content link 
 }
 add_action( 'wp_before_admin_bar_render', 'remove_admin_bar_links' );
 
