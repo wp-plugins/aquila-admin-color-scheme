@@ -20,7 +20,7 @@ function admin_mito_link() {
     $wp_admin_bar->add_menu( array( 'parent' => 'mito_menu', 'title' => 'design by Mito', 'href' => 'http://designbymito.com/', 'meta' => array( 'target' => '_blank' ) ) );
     $wp_admin_bar->add_menu( array( 'parent' => 'mito_menu', 'title' => 'Contact', 'href' => 'http://designbymito.com/contact/', 'meta' => array( 'target' => '_blank' ) ) );
 }
-add_action( 'admin_bar_menu', 'admin_mito_link', 1000 );
+//add_action( 'admin_bar_menu', 'admin_mito_link', 1000 );
 
 // Admin bar "Help" menu
 
@@ -37,6 +37,6 @@ function admin_help_link() {
     $wp_admin_bar->add_menu( array( 'parent' => 'help_menu', 'title' => 'WordPress Help', 'href' => 'http://codex.wordpress.org/Getting_Started_with_WordPress', 'meta' => array( 'target' => '_blank' ) ) );
     $wp_admin_bar->add_menu( array( 'parent' => 'help_menu', 'title' => 'Email Support', 'href' => 'mailto:support@designbymito.com', 'meta' => array( 'target' => '_blank' ) ) );
 }
-add_action( 'admin_bar_menu', 'admin_help_link', 1000 );
+//add_action( 'admin_bar_menu', 'admin_help_link', 1000 );
 
 ?>
